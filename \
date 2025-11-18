@@ -1,6 +1,0 @@
-const std = @import("std");
-const State = @import("state.zig").State;
-
-pub const StateProcessor = struct {
-    pub fn processState(state: *State) void {}
-};
